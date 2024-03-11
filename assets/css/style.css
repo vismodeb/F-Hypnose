@@ -112,16 +112,18 @@ button{
 .beknntAus_contain h2{
   text-align: center;
   font-size: 30px;
-  color: rgb(77,77,77);
+  color: rgb(108 106 108);
 }
 .beknntAus_items{
   margin-top: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  gap: 40px;
 }
 .beknntAus_items img{
-  max-width: 16%;
+  max-width: 160px;
+  margin: auto;
 }
 
 /* Start : Horizontal card 

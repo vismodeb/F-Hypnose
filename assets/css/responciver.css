@@ -18,6 +18,18 @@
   .horizontalCard_contain {
     gap: 20px;
   }
+  .beknntAus_items{
+    margin-top: 20px;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 20px;
+  }
+  .beknntAus_items img{
+    max-width: 120px;
+  }
+  .beknntAus_contain h2 {
+    font-size: 26px;
+  }
 }
 
 @media all and (max-width: 450px) {
@@ -28,5 +40,12 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
+  }
+  .beknntAus {
+    padding: 28px 0;
+    background: rgb(237 238 239);
+  }
+  .beknntAus_items{
+    grid-template-columns: repeat(2,1fr);
   }
 }
