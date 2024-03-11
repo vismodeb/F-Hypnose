@@ -1,0 +1,130 @@
+/* 
+  Template Name: 
+  Template URI: https://
+  Author Name: 
+  Author URI: https://
+  Version: 1.0.0
+  Description: This is
+  Tags: html, Css, Bootstrap, javaScript, jQuery
+*/
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Default Css 
+**************vismo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 300;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,a:hover{
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+button{
+  border: none;
+}
+
+.text_22{
+  font-size: 22px;
+  color: #535252;
+}
+
+.text_34{
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 45px;
+  margin: 10px 0;
+  color: #2a2a2a;
+}
+
+.horizontalCard_btn{
+  max-width: 70%;
+  margin: 28px auto;
+  padding: 18px 4px;
+  background: #feb334 !important;
+  color: #ffffff !important;
+}
+.horizontalCard_btn:hover{
+  background: #f3b346 !important;
+}
+.btn1{
+  color: #ffffff;
+}
+
+/* Start : Horizontal card 
+*********************************/
+.horizontalCard{
+  padding: 50px 0;
+}
+.horizontalCard_contain{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.horizontalCard_img,
+.horizontalCard_text{
+  width: 100%;
+  max-width: 50%;
+  text-align: center;
+}
+
+/* Start : beknnt aus
+*********************************/
+.beknntAus{
+  padding: 60px 0;
+  background: rgb(237 238 239);
+}
+.beknntAus_contain h2{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(77,77,77);
+}
+.beknntAus_items{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.beknntAus_items img{
+  max-width: 16%;
+}
+
+/* Start : Horizontal card 
+*********************************/
+/* Start : Horizontal card 
+*********************************/

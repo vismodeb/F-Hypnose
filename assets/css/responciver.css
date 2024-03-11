@@ -1,0 +1,32 @@
+@media all and (max-width: 991px) {
+  .horizontalCard_contain {
+    width: 98%;
+    flex-direction: column;
+  }
+  .horizontalCard_img{
+    max-width: 100%;
+  }
+  .horizontalCard_text {
+    max-width: 100%;
+    order: -1;
+  }
+}
+
+@media all and (max-width: 768px) {}
+
+@media all and (max-width: 567px) {
+  .horizontalCard_contain {
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .horizontalCard_btn {
+    max-width: 90%;
+  }
+  .text_34 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+}
