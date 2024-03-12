@@ -67,6 +67,12 @@ button{
   font-weight: 300;
 }
 
+.text_24{
+  font-size: 22px;
+  color: rgb(26 26 26);
+  font-weight: 300;
+}
+
 .text_34{
   font-size: 34px;
   font-weight: 500;
@@ -214,7 +220,40 @@ button{
   color: #ffffff !important;
 }
 
-/* 
+/* Start : Your success section
 *********************************/
+.yourSuccess{
+  padding: 80px 0;
+}
+.yourSuccess_contain h2{
+  text-align: center;
+  font-size: 38px;
+  color: rgb(26,26,26);
+}
+.borderBootem{
+  padding-bottom: 60px;
+  border-bottom: 3px solid #1a1a1a;
+}
+.single_success h3{
+  text-align: center;
+  margin: 70px 0 50px 0;
+}
+.single_success span{
+  font-weight: 600;
+}
+.yourSuccess_link{
+  margin-top: 80px;
+  font-size: 26px;
+  text-align: center;
+}
+.yourSuccess_link a{
+  text-decoration: underline;
+  color: rgb(12,129,191) !important;
+}
+.yourSuccess_link a:hover{
+  text-decoration: none;
+  color: rgb(12,129,191) !important;
+}
+
 /* 
 *********************************/

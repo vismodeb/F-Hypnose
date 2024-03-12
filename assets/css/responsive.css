@@ -49,6 +49,12 @@
     font-size: 32px;
     margin-bottom: 48px;
   }
+  .yourSuccess_contain h2 {
+    font-size: 30px;
+  }
+  .single_success h3 {
+    margin: 45px 0 40px 0;
+  }
 }
 
 @media all and (max-width: 567px) {
@@ -135,5 +141,20 @@
   .yourTime_contain ul li p {
     font-size: 16px;
     margin: 12px 0 40px 0;
+  }
+  .yourSuccess_contain h2 {
+    font-size: 26px;
+  }
+  .single_success h3 {
+    font-size: 20px;
+    margin: 34px 0 26px 0;
+  }
+  .text_24 {
+    font-size: 16px;
+  }
+  .yourSuccess_link{
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: center;
   }
 }
