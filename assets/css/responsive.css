@@ -41,6 +41,10 @@
   .text_26 {
     font-size: 20px;
   }
+  .yourTime_contain h2 {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
 }
 
 @media all and (max-width: 567px) {
@@ -91,7 +95,7 @@
 
 @media all and (max-width: 450px) {
   .horizontalCard_btn {
-    max-width: 90%;
+    max-width: 100%;
   }
   .text_34 {
     font-size: 26px;
@@ -110,5 +114,22 @@
   }
   .text_26 {
     font-size: 16px;
+  }
+  .yourTime_section {
+    padding: 60px 0;
+  }
+  .yourTime_btn {
+    width: 100%;
+  }
+  .yourTime_contain h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .yourTime_contain ul li h3 {
+    font-size: 22px;
+  }
+  .yourTime_contain ul li p {
+    font-size: 16px;
+    margin: 12px 0 40px 0;
   }
 }

@@ -179,8 +179,37 @@ button{
   width: 50%;
 }
 
-/* 
+/* Start : your time section
 *********************************/
+.yourTime_section{
+  padding: 80px 0;
+  background: #1a1a1a;
+}
+.yourTime_contain h2{
+  font-size: 38px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.yourTime_contain ul li h3{
+  font-size: 26px;
+  color: #ffffff;
+}
+.yourTime_contain ul li p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 12px 0 40px 0;
+}
+.yourTime_btn{
+  width: 370px;
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 18px 4px;
+  background: #feb334 !important;
+  color: #ffffff !important;
+}
+
 /* 
 *********************************/
 /* 
