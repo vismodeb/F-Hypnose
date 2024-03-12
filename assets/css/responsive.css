@@ -1,4 +1,7 @@
 @media all and (max-width: 991px) {
+  .container{
+    padding: 0 15px;
+  }
   .horizontalCard_contain {
     width: 98%;
     flex-direction: column;
@@ -25,6 +28,7 @@
   .anchukogl_img {
     width: 100%;
   }
+  .yourTime_contain,
   .anchuKogl_text {
     width: 100%;
   }
