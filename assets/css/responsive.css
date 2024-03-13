@@ -18,12 +18,7 @@
   }
   .anchuKogl_contain{
     width: 100%;
-    margin: auto;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
   }
   .anchukogl_img {
     width: 100%;
@@ -31,6 +26,9 @@
   .yourTime_contain,
   .anchuKogl_text {
     width: 100%;
+  }
+  .btn2{
+    width: 50%;
   }
 }
 
@@ -55,12 +53,17 @@
   .single_success h3 {
     margin: 45px 0 40px 0;
   }
+  .btn2{
+    width: 60%;
+  }
 }
 
 @media all and (max-width: 567px) {
+  .btn2{
+    width: 70%;
+  }
   .text_22{
     font-size: 18px;
-    font-weight: 100;
     color: #000000;
     font-weight: 200;
   }
@@ -81,7 +84,6 @@
   .beknntAus_items{
     margin-top: 20px;
     grid-template-columns: repeat(3,1fr);
-    text-align: center;
     gap: 20px;
   }
   .beknntAus_items img{
@@ -104,16 +106,13 @@
 }
 
 @media all and (max-width: 450px) {
-  .horizontalCard_btn {
-    max-width: 100%;
+  .btn1{
+    width: 100%;
   }
   .text_34 {
     font-size: 26px;
     font-weight: 500;
     line-height: 34px;
-  }
-  .horizontalCard_btn p{
-    font-size: 14px;
   }
   .beknntAus {
     padding: 28px 0;
@@ -127,9 +126,6 @@
   }
   .yourTime_section {
     padding: 60px 0;
-  }
-  .yourTime_btn {
-    width: 100%;
   }
   .yourTime_contain h2 {
     font-size: 28px;
@@ -156,5 +152,9 @@
     margin-top: 40px;
     font-size: 18px;
     text-align: center;
+  }
+  .footerContain ul{
+    flex-direction: column;
+    gap: 8px;
   }
 }
