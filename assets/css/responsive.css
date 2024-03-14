@@ -1,7 +1,120 @@
+@media all and (min-width: 992px){
+  .menu {
+     display: flex !important;
+  }
+  .menu nav ul {
+     display: flex !important;
+  }
+}
+
 @media all and (max-width: 991px) {
   .container{
     padding: 0 15px;
   }
+  .headerLogo h2 {
+    font-size: 32px;
+  }
+  .header-title{
+    position: relative;
+  }
+  .menu{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(237 238 239);
+    width: 100%;
+    height: auto;
+    top: 64px;
+    left: 0;
+    padding: 30px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    z-index: 9999;
+  }
+  .menu nav ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu nav ul li a {
+    color: #080808;
+  }
+  .menu nav ul li a::after,
+  .menu nav ul li a::before,
+  .menu nav ul li a:hover{
+    color: #1a1a1a !important;
+  }
+  .menu-bar{
+    display: block;
+  }
+  #toggleNav-icon{
+    width: 28px;
+    height: 23px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    top: 30%;
+    right: 0;
+  }
+  #toggleNav-icon span{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  #toggleNav-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+        -ms-transform-origin: left center;
+            transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(2) {
+    top: 8px;
+    -webkit-transform-origin: left center;
+        -ms-transform-origin: left center;
+            transform-origin: left center;
+  }
+  #toggleNav-icon span:nth-child(3) {
+    top: 16px;
+    -webkit-transform-origin: left center;
+        -ms-transform-origin: left center;
+            transform-origin: left center;
+  }
+  #toggleNav-icon.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: -2px;
+    left: 2px;
+  }
+  #toggleNav-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  #toggleNav-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 18px;
+    left: 2px;
+  }
+  /*End Mobile Menu icon*/
+
   .horizontalCard_contain {
     width: 98%;
     flex-direction: column;
@@ -51,7 +164,7 @@
     font-size: 30px;
   }
   .single_success h3 {
-    margin: 45px 0 40px 0;
+    margin: 50px 0 40px 0;
   }
   .btn2{
     width: 60%;
@@ -59,13 +172,26 @@
 }
 
 @media all and (max-width: 567px) {
+  .headerLogo h2 {
+    font-size: 30px;
+  }
   .btn2{
     width: 70%;
   }
   .text_22{
-    font-size: 18px;
-    color: #000000;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .horizontalCard_btn h4 {
+    font-size:20px;
+    font-weight: 600;
+  }
+  .beknntAus_contain h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .beknntAus_items img{
+    max-width: 100px;
   }
   .anchuKogl_section .container,
   .horizontalCard .container{
@@ -78,22 +204,13 @@
   .horizontalCard_text {
     padding: 0 15px;
   }
-  .horizontalCard_contain {
-    gap: 20px;
-  }
   .beknntAus_items{
     margin-top: 20px;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
   }
-  .beknntAus_items img{
-    max-width: 120px;
-  }
-  .beknntAus_contain h2 {
-    font-size: 26px;
-  }
   .horizontalCard {
-    padding: 50px 0 0 0;
+    padding: 34px 0 0 0;
   }
   .anchuKogl_section {
     padding: 44px 0;
@@ -106,33 +223,43 @@
 }
 
 @media all and (max-width: 450px) {
+  .menu{
+    top: 49px;
+  }
+  .main-header-area {
+    padding: 20px 0;
+  }
+  .headerLogo h2 {
+    font-size: 24px;
+  }
   .btn1{
     width: 100%;
   }
+  .text_24,
+  .text_26 {
+    font-size: 16px;
+  }
   .text_34 {
-    font-size: 26px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     line-height: 34px;
   }
   .beknntAus {
-    padding: 28px 0;
-    background: rgb(237 238 239);
+    padding: 50px 0;
+    background: rgb(255, 255, 255);
   }
   .beknntAus_items{
     grid-template-columns: repeat(2,1fr);
-  }
-  .text_26 {
-    font-size: 16px;
   }
   .yourTime_section {
     padding: 60px 0;
   }
   .yourTime_contain h2 {
-    font-size: 28px;
+    font-size: 22px;
     margin-bottom: 40px;
   }
   .yourTime_contain ul li h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .yourTime_contain ul li p {
     font-size: 16px;
@@ -143,10 +270,6 @@
   }
   .single_success h3 {
     font-size: 20px;
-    margin: 34px 0 26px 0;
-  }
-  .text_24 {
-    font-size: 16px;
   }
   .yourSuccess_link{
     margin-top: 40px;
